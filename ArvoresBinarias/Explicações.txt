@@ -1,0 +1,36 @@
+É um tipo de estrutura de dados não linear e dinâmica.
+É um Grafo Acíclico e Direcionado.
+Armazena os dados de forma hierárquica.
+
+É um tipo de árvore onde os nós podem ter no máximo dois filhos
+(filho da esquerda e filho da direita).
+
+É muito utilizada para otimização de buscas.
+
+Árvore binária iconpleta
+
+Árvore binária quase completa
+(Nós com menos de dois filhos ficam no último
+e penúltimo nível da árvore e os nós do último
+nível ficam o mais à esquerda possível)
+
+Árvore binária completa
+(Nós com menos de dois filhos ficam no
+último nível da árvore)
+
+
+Árvore Binária de Busca:
+
+ É um tipo de árvore binária que é construída com uma estratégia para
+facilitara busca binária.
+
+• A estratégia é já construir a estrutura de maneira ordenada:
+• Ao inserir um novo nó, ele é comparado com os nós já existentes;
+• Começando da raiz, se o nó a ser inserido tem valor menor que o nó visitado,
+ele continua a verificação para a esquerda, senão para a direita;
+• Se o nó visitado for um nó folha, o novo nó é inserido à esquerda se o valor
+for maior, ou à direita se for menor.
+
+Complexidade da busca: O(h), onde h é a altura da árvore.
+
+Quanto mais uma arvore é incompleta, mais ela tende p/ a complexidade O(n), uma vez que ela se torna mais linear!
